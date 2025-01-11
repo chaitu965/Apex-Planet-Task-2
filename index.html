@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Courses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header with Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#todo">To-Do List</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Image -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Learn New Skills with Our Online Courses</h1>
+      <p>Start your journey with our expert-led courses today!</p>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="courses">
+    <h2><u>Our Courses</u></h2>
+    <div class="course-list">
+      <div class="course-item">
+        <img src="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg" alt="Course 1">
+        <h3>Web Development</h3>
+        <p>Master web development from scratch!</p>
+        <button class="enroll-btn">Enroll Now - ₹1500</button>
+      </div>
+      <div class="course-item">
+        <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="Course 2">
+        <h3>JavaScript Basics</h3>
+        <p>Learn the fundamentals of JavaScript.</p>
+        <button class="enroll-btn">Enroll Now - ₹1500</button>
+      </div>
+      <div class="course-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA9eJF4b8ELgi0G7vRdqvl2h8LO7C4dGAjZQ&s/200" alt="Course 3">
+        <h3>Python</h3>
+        <p>Master the art of coding with our Python Course: Simple, Versatile, Powerful!</p>
+        <button class="enroll-btn">Enroll Now - ₹3000</button>
+      </div>
+      <div class="course-item">
+        <img src="https://thumbs.dreamstime.com/b/java-logo-editorial-illustrative-white-background-eps-download-vector-jpeg-banner-java-logo-editorial-illustrative-white-208329454.jpg" alt="Course 4">
+        <h3>Java</h3>
+        <p>Unlock the power of programming with our Java Course!</p>
+        <button class="enroll-btn">Enroll Now - ₹3500</button>
+      </div>
+      <div class="course-item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMc5X2JBVfXFiBqI68DTQFeZF0MhHnj4NEptHv0K9yos6MWtTQCMnXYKNFulRflEPMfA&usqp=CAU" alt="Course 5">
+        <h3>Devops</h3>
+        <p>Streamline your workflow and enhance collaboration with our DevOps Course!</p>
+        <button class="enroll-btn">Enroll Now - ₹4000</button>
+      </div>
+      <div class="course-item">
+        <img src="https://img.icons8.com/nolan/512/c-sharp-logo.png" alt="Course 6">
+        <h3>C#</h3>
+        <p>Master the art of coding with our C# Course</p>
+        <button class="enroll-btn">Enroll Now - ₹2500</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- To-Do List Section -->
+  <section id="todo" class="todo">
+    <h2>To-Do List</h2>
+    <input type="text" id="task-input" placeholder="Add a new task">
+    <button id="add-task">Add Task</button>
+    <ul id="task-list"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

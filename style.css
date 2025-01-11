@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: rgb(213, 213, 234);
+    padding: 10px;
+    padding-left: 500px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: blueviolet;    
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .hero {
+    background-image: url('https://png.pngtree.com/background/20231030/original/pngtree-creating-web-applications-programming-and-app-development-with-seo-3d-background-picture-image_5782728.jpg');
+    background-size: auto;
+    text-align: center;
+    padding: 200px 50px;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+  }
+  
+  .courses {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .courses h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .course-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .course-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    margin: 60px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .enroll-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .enroll-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact {
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(230, 232, 135);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 3px solid #ccc;
+  }
+  
+  .contact button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo {
+    padding: 50px 20px;
+    background-color: bisque;
+    text-align: center;
+  }
+  
+  .todo input {
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .todo button {
+    padding: 10px 15px;
+    background-color: rgb(218, 121, 212);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo button:hover {
+    background-color: #d80aca;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  li button:hover {
+    background-color: #c82333;
+  }
+  
+  @media (max-width: 768px) {
+    .course-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    .todo input {
+      width: 80%;
+    }
+  }
+  
